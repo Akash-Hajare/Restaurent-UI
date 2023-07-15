@@ -1,0 +1,95 @@
+.right{
+    background: rgba(39, 42, 48, 1);  
+    background: rgba(39, 42, 48, 1);
+    background: rgb(27, 28, 31);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 812px;
+    height: 46px;
+    padding-left: 10px;
+    border: 1px none;
+    border: 0.5px solid none;
+}
+.input-logo{
+    width: 24px;
+   height: 24px;
+   background: rgba(39, 42, 48, 1);
+   border: none;
+   padding-top: 8px;
+    padding-bottom: 8px;
+}
+input{
+    width: 100%;
+    height: 24px;
+    padding-left: 20px;
+    background: rgba(39, 42, 48, 1);
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+}
+button{
+    width: 176px;
+    height: 46px;
+    background: rgba(255, 36, 36, 1);
+    font-family: Poppins; 
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+}
+.icon{
+    width: 58px;
+    height: 58px;
+}
+.banner img{
+    border-radius: 30px;
+}
+.menu{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.food-items{
+    display: flex;
+}
+.menu p{
+    width: 69px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 20px;
+}
+.food-items img{
+    width: 428px;
+height: 385px;
+top: 655px;
+left: 436px;
+border-radius: 10px
+
+}
+input:focus{
+    outline: none;
+}
+.input-section:hover{
+   border: 0.5px solid white;
+  
+}
